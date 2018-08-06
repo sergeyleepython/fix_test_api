@@ -1,0 +1,87 @@
+{
+  "uid" : "2be55624b8c4e4ca",
+  "name" : "test_failure[data0-Missing password]",
+  "fullName" : "tests.method_post.test_login_post.TestPostLogin#test_failure[data0-Missing password]",
+  "historyId" : "5825d09fc08b5a8a67da008cbf60451d",
+  "time" : {
+    "start" : 1533478963477,
+    "stop" : 1533478964087,
+    "duration" : 610
+  },
+  "description" : "\n        Invalid or missing values.\n        ",
+  "descriptionHtml" : "<pre><code>    Invalid or missing values.\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base_request",
+    "time" : {
+      "start" : 1533478963476,
+      "stop" : 1533478963476,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Invalid or missing values.\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "665b62bbbf884c6a",
+      "name" : "< POST /api/login HTTP/1.1\r\n< Host: reqres.in\r\n< User-Agent: Mozilla/5.0\r\n< Accept-Encoding: gzip, deflate\r\n< Accept: text/plain\r\n< Connection: keep-alive\r\n< Content-type: application/json\r\n< Content-Length: 25\r\n< \r\n< {\"email\": \"peter@klaven\"}\r\n> HTTP/1.1 400 Bad Request\r\n> Date: Sun, 05 Aug 2018 14:22:44 GMT\r\n> Content-Type: application/json; charset=utf-8\r\n> Content-Length: 28\r\n> Connection: keep-alive\r\n> Set-Cookie: __cfduid=d7eef60ceee28a52d99e2e318010023e01533478963; expires=Mon, 05-Aug-19 14:22:43 GMT; path=/; domain=.reqres.in; HttpOnly\r\n> X-Powered-By: Express\r\n> Access-Control-Allow-Origin: *\r\n> ETag: W/\"1c-NmpazMScs9tOqR7eDEesn+pqC9Q\"\r\n> Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n> Server: cloudflare\r\n> CF-RAY: 4459eae36c03bf1b-FRA\r\n> \r\n{\"error\":\"Missing password\"}",
+      "source" : "665b62bbbf884c6a.attach",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "asus-UX32LN"
+  }, {
+    "name" : "thread",
+    "value" : "9694-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.method_post.test_login_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'email': 'peter@klaven'}"
+  }, {
+    "name" : "error",
+    "value" : "'Missing password'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2be55624b8c4e4ca.json",
+  "parameterValues" : [ "{'email': 'peter@klaven'}", "'Missing password'" ]
+}

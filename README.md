@@ -14,10 +14,14 @@ Python dependencies:
 Allure tool (https://docs.qameta.io/allure/2.0/)
 
 ## LAUNCHING
-py.test -s -v --testing-stand=DEV
+Run tests
+> py.test -s -v --testing-stand=DEV
 
-py.test --alluredir reports
+Generate data for Allure
+> py.test --alluredir reports
 
-allure serve reports
+Start Allure server
+> allure serve reports
 
-
+Generate Allure html report
+> allure generate reports

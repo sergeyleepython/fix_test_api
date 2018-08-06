@@ -1,0 +1,105 @@
+{
+  "uid" : "fa67306b49cdda6c",
+  "name" : "test_failure[data1-Missing email or username]",
+  "fullName" : "tests.method_post.test_login_post.TestPostLogin#test_failure[data1-Missing email or username]",
+  "historyId" : "398346a92ad0a9f0b58718cf2b51dcb8",
+  "time" : {
+    "start" : 1533480341216,
+    "stop" : 1533480341841,
+    "duration" : 625
+  },
+  "description" : "\n        Invalid or missing values.\n        ",
+  "descriptionHtml" : "<pre><code>    Invalid or missing values.\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base_request",
+    "time" : {
+      "start" : 1533480341215,
+      "stop" : 1533480341215,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Invalid or missing values.\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5cc3ccbb5331d23e",
+      "name" : "< POST /api/login HTTP/1.1\r\n< Host: reqres.in\r\n< User-Agent: Mozilla/5.0\r\n< Accept-Encoding: gzip, deflate\r\n< Accept: text/plain\r\n< Connection: keep-alive\r\n< Content-type: application/json\r\n< Content-Length: 33\r\n< \r\n< {\"email\": null, \"password\": null}\r\n> HTTP/1.1 400 Bad Request\r\n> Date: Sun, 05 Aug 2018 14:45:41 GMT\r\n> Content-Type: application/json; charset=utf-8\r\n> Content-Length: 37\r\n> Connection: keep-alive\r\n> Set-Cookie: __cfduid=d4469f15e54c75abd15ea079326b082101533480341; expires=Mon, 05-Aug-19 14:45:41 GMT; path=/; domain=.reqres.in; HttpOnly\r\n> X-Powered-By: Express\r\n> Access-Control-Allow-Origin: *\r\n> ETag: W/\"25-Ik70kof1lbc973ShN5FoVPxYn7A\"\r\n> Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n> Server: cloudflare\r\n> CF-RAY: 445a0c864e85bef8-FRA\r\n> \r\n{\"error\":\"Missing email or username\"}",
+      "source" : "5cc3ccbb5331d23e.attach",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "asus-UX32LN"
+  }, {
+    "name" : "thread",
+    "value" : "11097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.method_post.test_login_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'email': None, 'password': None}"
+  }, {
+    "name" : "error",
+    "value" : "'Missing email or username'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "479d5ca815b5b4c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533478964093,
+        "stop" : 1533478964713,
+        "duration" : 620
+      }
+    }, {
+      "uid" : "45ac3ce19fe20a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533478853776,
+        "stop" : 1533478854259,
+        "duration" : 483
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa67306b49cdda6c.json",
+  "parameterValues" : [ "{'email': None, 'password': None}", "'Missing email or username'" ]
+}

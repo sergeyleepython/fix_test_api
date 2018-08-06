@@ -1,0 +1,102 @@
+{
+  "uid" : "d2743bb1033fc03c",
+  "name" : "test_found[12]",
+  "fullName" : "tests.method_get.test_resource.TestGetResource#test_found[12]",
+  "historyId" : "bb38b619c2fdc9b951e4d84ec96098d4",
+  "time" : {
+    "start" : 1533480327659,
+    "stop" : 1533480328129,
+    "duration" : 470
+  },
+  "description" : "\n        Valid values.\n        ",
+  "descriptionHtml" : "<pre><code>    Valid values.\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base_request",
+    "time" : {
+      "start" : 1533480327659,
+      "stop" : 1533480327659,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Valid values.\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c694a61b01f9b6f4",
+      "name" : "< GET /api/unknown/12 HTTP/1.1\r\n< Host: reqres.in\r\n< User-Agent: Mozilla/5.0\r\n< Accept-Encoding: gzip, deflate\r\n< Accept: text/plain\r\n< Connection: keep-alive\r\n< Content-type: application/json\r\n< \r\n\r\n> HTTP/1.1 200 OK\r\n> Date: Sun, 05 Aug 2018 14:45:28 GMT\r\n> Content-Type: application/json; charset=utf-8\r\n> Transfer-Encoding: chunked\r\n> Connection: keep-alive\r\n> Set-Cookie: __cfduid=d179ea7e4dfc4c2d71db6d1030ec8f1fd1533480327; expires=Mon, 05-Aug-19 14:45:27 GMT; path=/; domain=.reqres.in; HttpOnly\r\n> X-Powered-By: Express\r\n> Access-Control-Allow-Origin: *\r\n> ETag: W/\"5f-8z9PeeTgl+t3l9qurlhkw3XMbPM\"\r\n> Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n> Server: cloudflare\r\n> CF-RAY: 445a0c318bed2378-FRA\r\n> Content-Encoding: gzip\r\n> \r\n{\"data\":{\"id\":12,\"name\":\"honeysuckle\",\"year\":2011,\"color\":\"#D94F70\",\"pantone_value\":\"18-2120\"}}",
+      "source" : "c694a61b01f9b6f4.attach",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "asus-UX32LN"
+  }, {
+    "name" : "thread",
+    "value" : "11097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.method_get.test_resource"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "resource_id",
+    "value" : "12"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "3862fae5192d5c3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533478951628,
+        "stop" : 1533478952266,
+        "duration" : 638
+      }
+    }, {
+      "uid" : "c3686ee85571ed13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1533478841544,
+        "stop" : 1533478842150,
+        "duration" : 606
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2743bb1033fc03c.json",
+  "parameterValues" : [ "12" ]
+}

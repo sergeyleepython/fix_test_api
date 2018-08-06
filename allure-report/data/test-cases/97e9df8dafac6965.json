@@ -1,0 +1,84 @@
+{
+  "uid" : "97e9df8dafac6965",
+  "name" : "test_success[data0]",
+  "fullName" : "tests.method_post.test_register_post.TestPostRegister#test_success[data0]",
+  "historyId" : "29d5311bb2f2ee1ea1d123dd4170910e",
+  "time" : {
+    "start" : 1533478854903,
+    "stop" : 1533478855516,
+    "duration" : 613
+  },
+  "description" : "\n        Valid values.\n        ",
+  "descriptionHtml" : "<pre><code>    Valid values.\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base_request",
+    "time" : {
+      "start" : 1533478854902,
+      "stop" : 1533478854902,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Valid values.\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ac827f29faa84903",
+      "name" : "< POST /api/register HTTP/1.1\r\n< Host: reqres.in\r\n< User-Agent: Mozilla/5.0\r\n< Accept-Encoding: gzip, deflate\r\n< Accept: text/plain\r\n< Connection: keep-alive\r\n< Content-type: application/json\r\n< Content-Length: 42\r\n< \r\n< {\"email\": \"test@test\", \"password\": \"test\"}\r\n> HTTP/1.1 201 Created\r\n> Date: Sun, 05 Aug 2018 14:20:55 GMT\r\n> Content-Type: application/json; charset=utf-8\r\n> Content-Length: 28\r\n> Connection: keep-alive\r\n> Set-Cookie: __cfduid=d596c736a9f47c1498a67629abf6be4d01533478855; expires=Mon, 05-Aug-19 14:20:55 GMT; path=/; domain=.reqres.in; HttpOnly\r\n> X-Powered-By: Express\r\n> Access-Control-Allow-Origin: *\r\n> ETag: W/\"1c-Qhb23J5gzWLVsuoGOIKOSkfy7a0\"\r\n> Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n> Server: cloudflare\r\n> CF-RAY: 4459e83ccad8bef8-FRA\r\n> \r\n{\"token\":\"QpwL5tke4Pnpja7X\"}",
+      "source" : "ac827f29faa84903.attach",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "asus-UX32LN"
+  }, {
+    "name" : "thread",
+    "value" : "9393-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.method_post.test_register_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'email': 'test@test', 'password': 'test'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97e9df8dafac6965.json",
+  "parameterValues" : [ "{'email': 'test@test', 'password': 'test'}" ]
+}

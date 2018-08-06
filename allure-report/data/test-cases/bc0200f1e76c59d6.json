@@ -1,0 +1,84 @@
+{
+  "uid" : "bc0200f1e76c59d6",
+  "name" : "test_list_found[1]",
+  "fullName" : "tests.method_get.test_user.TestGetUser#test_list_found[1]",
+  "historyId" : "be458ad3372f71d81484026b14122acd",
+  "time" : {
+    "start" : 1533478955442,
+    "stop" : 1533478956047,
+    "duration" : 605
+  },
+  "description" : "\n        Valid page values.\n        ",
+  "descriptionHtml" : "<pre><code>    Valid page values.\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base_request",
+    "time" : {
+      "start" : 1533478955441,
+      "stop" : 1533478955441,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Valid page values.\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b04d044c84162c1",
+      "name" : "< GET /api/users?page=1 HTTP/1.1\r\n< Host: reqres.in\r\n< User-Agent: Mozilla/5.0\r\n< Accept-Encoding: gzip, deflate\r\n< Accept: text/plain\r\n< Connection: keep-alive\r\n< Content-type: application/json\r\n< \r\n\r\n> HTTP/1.1 200 OK\r\n> Date: Sun, 05 Aug 2018 14:22:36 GMT\r\n> Content-Type: application/json; charset=utf-8\r\n> Transfer-Encoding: chunked\r\n> Connection: keep-alive\r\n> Set-Cookie: __cfduid=d2baeefe018ec2ba73e025296f053cc1c1533478955; expires=Mon, 05-Aug-19 14:22:35 GMT; path=/; domain=.reqres.in; HttpOnly\r\n> X-Powered-By: Express\r\n> Access-Control-Allow-Origin: *\r\n> ETag: W/\"1bb-D+c3sZ5g5u/nmLPQRl1uVo2heAo\"\r\n> Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n> Server: cloudflare\r\n> CF-RAY: 4459eab11eac26ae-FRA\r\n> Content-Encoding: gzip\r\n> \r\n{\"page\":1,\"per_page\":3,\"total\":12,\"total_pages\":4,\"data\":[{\"id\":1,\"first_name\":\"George\",\"last_name\":\"Bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg\"},{\"id\":2,\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"},{\"id\":3,\"first_name\":\"Emma\",\"last_name\":\"Wong\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg\"}]}",
+      "source" : "7b04d044c84162c1.attach",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "asus-UX32LN"
+  }, {
+    "name" : "thread",
+    "value" : "9694-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.method_get.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "page",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc0200f1e76c59d6.json",
+  "parameterValues" : [ "1" ]
+}

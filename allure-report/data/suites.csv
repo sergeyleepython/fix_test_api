@@ -1,0 +1,115 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.method_delete.test_user_delete.TestDeleteUser#test_update[1-data0]","659","
+        Valid values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_list_found[1]","650","
+        Valid page values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_not_found_for_digit[-1]","627","
+        Values are out of scope of the valid values.
+        "
+"passed","tests.method_post.test_login_post.TestPostLogin#test_failure[data1-Missing email or username]","625","
+        Invalid or missing values.
+        "
+"passed","tests.method_post.test_login_post.TestPostLogin#test_failure[data0-Missing password]","689","
+        Invalid or missing values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_found[1]","637","
+        Valid values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_found[12]","648","
+        Valid values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_list_page_ignored[foo]","631","
+        Page values of zero, None and string are substituted with 1.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_list_page_ignored[0]","629","
+        Page values of zero, None and string are substituted with 1.
+        "
+"passed","tests.method_post.test_login_post.TestPostLogin#test_success[data0]","613","
+        Valid values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_not_found_for_digit[0]","472","
+        Values are out of scope of the valid values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_list_page_ignored[foo]","626","
+        Page values of zero, None and string are substituted with 1.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_found[1]","651","
+        Valid values.
+        "
+"passed","tests.method_post.test_register_post.TestPostRegister#test_failure[data1-Missing email or username]","622","
+        Invalid or missing values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_list_found[-1]","647","
+        Valid page values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_list_found[4]","618","
+        Valid page values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_list_not_found[5]","618","
+        The value is above valid boundary value.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_not_found_for_letters[foo]","631","
+        Non-digit value is not valid.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_not_found_for_digit[13]","623","
+        Values are out of scope of the valid values.
+        "
+"passed","tests.method_patch.test_user_patch.TestPatchUser#test_update[1-data0]","635","
+        Valid values.
+        "
+"passed","tests.method_post.test_register_post.TestPostRegister#test_failure[data0-Missing password]","611","
+        Invalid or missing values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_not_found_for_digit[0]","635","
+        Values are out of scope of the valid values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_list_page_without_page_param","604","
+        If you don't pass page param, the system implicitly assign page = 1.
+        "
+"passed","tests.method_put.test_user_put.TestPutUser#test_update[1-data0]","623","
+        Valid values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_list_page_without_page_param","629","
+        If you don't pass page param, the system implicitly assign page = 1.
+        "
+"passed","tests.method_post.test_register_post.TestPostRegister#test_success[data0]","640","
+        Valid values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_not_found_for_digit[13]","652","
+        Values are out of scope of the valid values.
+        "
+"passed","tests.method_post.test_login_post.TestPostLogin#test_failure[data2-Missing email or username]","624","
+        Invalid or missing values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_list_page_ignored[0]","631","
+        Page values of zero, None and string are substituted with 1.
+        "
+"passed","tests.method_post.test_register_post.TestPostRegister#test_failure[data2-Missing email or username]","618","
+        Invalid or missing values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_list_found[-1]","650","
+        Valid page values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_not_found_for_digit[-1]","1112","
+        Values are out of scope of the valid values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_list_not_found[5]","649","
+        The value is above valid boundary value.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_found[12]","470","
+        Valid values.
+        "
+"passed","tests.method_get.test_resource.TestGetResource#test_not_found_for_letters[foo]","622","
+        Non-digit value is not valid.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_list_found[4]","632","
+        Valid page values.
+        "
+"passed","tests.method_post.test_user_post.TestPostUser#test_create[data0]","654","
+        Valid values.
+        "
+"passed","tests.method_get.test_user.TestGetUser#test_list_found[1]","613","
+        Valid page values.
+        "
